@@ -1,0 +1,580 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas HTML5</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #004080;
+            border-bottom: 2px solid #004080;
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            columns: 3;
+            -webkit-columns: 3;
+            -moz-columns: 3;
+            gap: 2rem;
+            padding-left: 1rem;
+        }
+        li {
+            margin-bottom: 0.4rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Listado de etiquetas válidas en HTML5</h1>
+    <p>A continuación se enumeran todas las etiquetas reconocidas por HTML5 actualmente:</p>
+    <ul>
+        <li>&lt;a&gt;
+            <a href="https://www.youtube.com/watch?v=GBIIQ0kP15E">😱 ¡No vas a creer lo que encontré en este video! 🔥</a>
+        </li>
+        <li>&lt;abbr&gt;
+            <p>
+                esta etiqueta sirve para que cuando el usuario pase su cursor por arriba salga lo siguiente <abbr title="(es mentira)">El LoL es bueno :D</abbr>
+            </p>
+        </li>
+        <li>&lt;area&gt;<p>Hace click en la foto!</p>
+            <img src="1.png" usemap="#pyke-meme" alt="PYKE MEME" width="290" height="214">
+            <map name="pyke-meme">
+                <area shape="circle" coords="110,80,900" href="pyke.html" alt="meme">
+            </map>
+        </li>
+        <li>&lt;article&gt;
+            <article>
+                <h2>¿Qué hace &lt;article&gt;?</h2>
+                <p>La etiqueta &lt;article&gt; se usa para marcar contenido independiente y autocontenible, como:</p>
+    
+                <ul>
+                    <li>Publicacion</li>
+                    <li>Noticias</li>
+                    <li>Foros</li>
+                    <li>Productos</li>
+                </ul>
+                <footer>
+                <p><strong>Publicado por:</strong> Tomi Villar</p>
+                </footer>
+            </article>
+        </li>
+        <li>&lt;aside&gt;
+            <aside>Define contenido relacionado tangencialmente con el contenido principal, como barras laterales o notas al margen. justo en este momento no se puede mostrar por que no tengo cuadros :D</aside>
+        </li>
+        <li>&lt;audio&gt;
+            <audio controls>
+                <source src="musica.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </li>
+        <li>&lt;b&gt;
+            <p>lo que hace es poner <b>NEGRITA</b> a un texto</p>
+        </li>
+        <li>&lt;base&gt;
+            <p>para lo que sirve "BASE" es para hacer que cuando escribas un link incompleto se auto complete con lo que pongas dentro ejemplo: si tu link es "https://midominio.com/" al poner productos.html te lleva a la pagina</p>
+        </li>
+        <li>&lt;bdi&gt; <p>lo que hace es aislar el texto para que no afecte al texto "normal" ejemplo:</p>
+            <p>Usuario: <bdi>مرحبا</bdi></p>
+        </li>
+        <li>&lt;bdo&gt;
+            <p>lo que hace es forzar la direccion deun texto de izquierda a derecha o derecha a izquierda. Ejemplo: <bdo dir="rtl">texto al reves
+            </bdo>
+            </p>
+        </li>
+        <li>&lt;blockquote&gt; <p>lo que hace es citar en bloque de otra fuente ejemplo:</p>
+            <blockquote>
+            “La imaginación es más importante que el conocimiento.”
+            </blockquote>
+        </li>
+        <li>&lt;body&gt; 
+            <p> "body" se usa para almacenar todo lo que tiene  la web por ejemplo: esto ;D </p>
+        </li>
+        <li>&lt;br&gt;
+            lo que hacer "br" es hacer un salto de linea... YA <br>||<br>||<br>||<br>\/<br> <b>ACA TOY :D</b>
+        </li>
+        <li>&lt;button&gt;
+            <p> lo que hace "button" es literalmente crear un boton :D </p> <button> haceme click :D</button>
+        </li>
+        <li>&lt;canvas&gt;
+            <p> lo que hace canvas es poder hacer un area de dibujos pero con JavaScript D:</p>
+        </li>
+        <li>&lt;caption&gt;
+            <p>lo que hace "caption" es ponerle titulo a una tabla  ejemplo: <table>
+                <caption><b>Ventas 2025</b></caption>
+                <tr><td>Enero</td><td>$1000</td></tr>
+                </table>
+            </p>
+        </li>
+        <li>&lt;cite&gt; <p>por lo que probe "cite" lo que hace es cita el titulo de una obra</p>
+            <p><cite>El Quijote</cite> es una novela famosa.</p>
+        </li>
+        <li>&lt;code&gt; 
+            <p>
+                lo que hace "code" es mostrar texto como codigo. Ejemplo:
+            </p>
+            <p>Usá el comando <code>html:5</code> :D</p>
+        </li>
+        <li>&lt;col&gt;
+            <p>
+                "col" se usa para Definir propiedades para columnas en una tabla (como color o ancho). Se usa dentro de &lt;colgroup&gt;.
+            </p>
+        </li>
+        <li>&lt;colgroup&gt;
+            <p>
+                "colgroup" se usa para Agrupar una o más columnas para aplicarles estilo o atributos.
+            </p>
+        </li>
+        <li>&lt;data&gt;  <p> lo que hace "data" es ponerle un valor oculto a una o mas palabras ejemplo los "Mil pesos" de abajo :D</p>
+            <p>Precio: <data value="1000">Mil pesos</data></p>
+        </li>
+        <li>&lt;datalist&gt; <p> lo que hace datalist es dar opciones sugeridas para un input.
+            pd: pasen el mouse por arriba de "ELEGI UN JUEGO" :D
+        </p>
+            <p><b><abbr title="(Mira las sugerencias ;D)">ELEGI UN JUEGO</abbr></b></p>
+            <input list="juegos" name="juego">
+            <datalist id="juegos">
+                <option value="Rocket League">
+                <option value="League Of Legends">
+                <option value="ALBION ONLINE ES UN MMO RPG NO LINEAL EN DONDE PODES HACER TU PROPIA HISTORIA">
+            </datalist>
+        </li>
+        <li>&lt;dd&gt;
+            <p>
+                "dd" Define una descripción dentro de una lista de definiciones(dl). Ejemplo:
+            </p>
+            <dl>
+                <dt>esto es "dt" (HTML) el titulo.</dt>
+                <dd>y esto es el "dd"(Lenguaje de marcado para la web).</dd>
+            </dl> 
+        </li>
+        <li>&lt;del&gt; <p> lo que hace "del" es tachar texto.
+            ejemplo:
+        </p>
+            <p>Precio anterior: <del>$500</del></p>
+            <p>Precio nuevo: $300</p>
+
+        </li>
+        <li>&lt;details&gt; <p> "details" se usa para esconder informacion dentro de un bloque expandible </p>
+            <details>
+                <summary><b>MIRA ESTO</b> 🤨🤨</summary>
+                <p> aca toy, otra ves <b>:D</b></p>
+            </details>
+        </li>
+        <li>&lt;dfn&gt; <p> "dfn" se usa para indicar que un termino esta siendo definido</p>
+            <p><dfn>API</dfn> significa Interfaz de Programación de Aplicaciones.</p>
+        </li>
+        <li>&lt;dialog&gt;
+            <p>
+                "dialog" sirve para crear una ventana de dialogo emergente.
+            </p>
+        </li>
+        <li>&lt;div&gt; <p>lo que hace el "div" es un contenedor para agrupar elemenetos</p>
+            <div class="contenedor">
+                <p>Texto dentro del div</p>
+            </div>
+        </li>
+        <li>&lt;dl&gt;
+            <p>
+                lo que hace "dl" es una lista de definiciones (agrupa "dt" y "dl")
+            </p>
+        </li>
+        <li>&lt;dt&gt;
+            <p> "dt" define un termino dentro de una lista de definiciones</p>
+        </li>
+        <li>&lt;em&gt; <p>lo que hace "em" es mostrar texto en cursiva pero semanticamente resalta el texto con enfasis</p>
+            <p>Esto es <em>muy importante</em> entenderlo.</p>
+
+        </li>
+        <li>&lt;embed&gt;
+            <p>lo que hace "embed" es insertar contenido externo <br> ejemplo:</p>
+            <embed src="imagen.png" width="250" height="300">
+        </li>
+        <li>&lt;fieldset&gt; <p> lo que hace "fieldset" es agrupar controles dentro de un formulario</p>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <input type="text" placeholder="Nombre">
+            </fieldset>
+        </li>
+        <li>&lt;figcaption&gt; <p>lo que hace es agregar un texto descriptivo a una figura (figure) Ejemplo:</p>
+            <figure>
+                <img src="montaña.png"Montaña" width="250" height="200">
+                <figcaption>Paisaje de montaña</figcaption>
+            </figure>
+        </li>
+        <li>&lt;figure&gt;
+            <p>"figure" es un contenedor de imagenes, graficos, etc</p>
+        </li>
+        <li>&lt;footer&gt;
+            <p>"footer" Define el pie de una sección o de toda la página. ejemplo:
+            </p>
+            <footer>
+                <p>&copy; 2025 Mi Sitio</p>
+            </footer>
+        </li>
+        <li>&lt;form&gt; <p> lo que hace "form" es definor un formulario para recopilar datos de l usuario.</p>
+            <form action="/enviar" method="post">
+                <input type="text" name="nombre">
+                <button type="submit">Enviar</button>
+            </form>
+        </li>
+        <li>&lt;h1&gt;<h1>titulo</h1></li>
+        <li>&lt;h2&gt;<h2>subtitulo</h2></li>
+        <li>&lt;h3&gt;<h3>subseccion</h3></li>
+        <li>&lt;h4&gt;<h4>subsubseccion</h4></li>
+        <li>&lt;h5&gt;<h5>encabezado menor</h5></li>
+        <li>&lt;h6&gt;<h6>encabezado mas chico</h6></li>
+        <li>&lt;head&gt;<p> el "head" contiene metadatos del documento que no son visibles. </p></li>
+        <li>&lt;header&gt;
+            <p> lo que hace "header" es el encabezado de seccion o pagina </p>
+        </li>
+        <li>&lt;hr&gt;
+            <p> el "hr" es una linea horizontal que separa contenido Ejemplo:</p>
+            <p>Primer bloque</p>
+            <hr>
+            <p>Segundo bloque</p>
+        </li>
+        <li>&lt;html&gt;<p> es el elemento raiz de todo documento html</p></li>
+        <li>&lt;i&gt;
+            <p>texto en curisva <br> Ejemplo:</p>
+            <p>Una palabra en <i>cursiva</i>.</p>
+
+        </li>
+        <li>&lt;iframe&gt; <p> "iframe" muestra otra pagina dentro de un cuadro.</p>
+            <iframe src="pyke.html" width="200" height="200"></iframe>
+
+        </li>
+        <li>&lt;img&gt;<p>lo que hace "img" es insertar una imagen</p>
+            <img src="pco.png" alt="cosas de diseñadores" width="200">
+        </li>
+        <li>&lt;input&gt;
+            <p>input es un campo de entrada de formulario</p>
+            <input type="text" placeholder="Aca toy :D">
+        </li>
+        <li>&lt;ins&gt;
+            <p> lo que hace "ins" es subrayar texto. Ejemplo:</p>
+            <p>Texto original &lt;ins&gt;<ins>añadido</ins>&lt;/ins&gt;.</p>
+        </li>
+        <li>&lt;kbd&gt; <p>lo que hace "kbd" es representar una entrada de teclado en texto Ejemplo</p>
+            Presiona &lt;kbd&gt;<kbd>Ctrl</kbd>&lt;/kbd&gt; + &lt;kbd&gt;<kbd>S</kbd>&lt;/kbd&gt;
+
+        </li>
+        <li>&lt;label&gt;
+            <p>etiqueta para un campo de formulario. Ejemplo:</p>
+            <label for="email">Email:</label>
+            <input id="email" type="email">
+
+        </li>
+        <li>&lt;legend&gt;
+            <p>titulo para un fieldset ejemplo:</p>
+            <fieldset>
+                <legend>LEGEND</legend>
+                <input type="text">
+            </fieldset>              
+        </li>
+        <li>&lt;li&gt;
+            <p>elemento de una lista: ejemplo</p></li>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+                <li>Elemento 4</li>
+                <li>Elemento 5</li>
+                <li>Aca toy :D</li>
+                <li>Elemento 7</li>
+                <li>Elemento 8</li>
+                <li>Elemento 9</li>
+                <li>Elemento 10</li>
+            </ul>
+            
+        <li>&lt;link&gt;
+            <p>"link" vincula reucrsos externos por ejemplo css</p>
+        </li>
+        <li>&lt;main&gt;
+            <p>"main" es el contenido principal de la pagina ejemplo:</p>
+            <main>
+                <h2>Contenido central</h2>
+            </main></li>
+        <li>&lt;map&gt;<p>es un mapa con areas clicables como el de arriba</p></li>
+        <li>&lt;mark&gt;<p>resalta texto</p>
+            <p>Este es un <mark>texto importante</mark>.</p>
+        </li>
+        <li>&lt;math&gt;
+            <p>inserta formulas matematicas. ejemplo:</p>
+            <math>
+                <msup><mi>x</mi><mn>2</mn></msup>
+            </math>              
+        </li>
+        <li>&lt;menu&gt; <p>menu de opciones (no se usa casi)</p>
+            <menu>
+                <li>Opción 1</li>
+                <li>Opción 2</li>
+            </menu>              
+        </li>
+        <li>&lt;menuitem&gt;<p>es un elemento de menu contextual (experimental y obsoleto) </p></li>
+        <li>&lt;meta&gt;<p>Define metadatos (codificación, descripción, etc.).</p></li>
+        <li>&lt;meter&gt;
+            <p>Medidor de valores (como progreso, pero con rangos).</p>
+            <meter value="0.6">60%</meter>
+        </li>
+        <li>&lt;nav&gt; 
+            <p>contenedor de enlaces de navegacion</p>
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+            </nav>
+        </li>
+        <li>&lt;noscript&gt;<p>Contenido a mostrar si JavaScript está deshabilitado.</p></li>
+        <li>&lt;object&gt;<p> incrusta contenido multimedia o documentos</p>
+
+            <object data="archivo.pdf" type="application/pdf" width="500" height="400"></object>
+
+        </li>
+        <li>&lt;ol&gt;
+            <p>lista ordenada</p>
+            <ol>
+                <li>Paso 1</li>
+                <li>Paso 2</li>
+            </ol>
+        </li>
+        <li>&lt;optgroup&gt;<p>agrupa opciones en un select</p>
+            <select>
+                <optgroup label="Frutas">
+                    <option>Manzana</option>
+                    <option>Pera</option>
+                </optgroup>
+            </select>
+            </li>
+        <li>&lt;option&gt;<p>es una opcion dentro de selects o datalists</p></li>
+        <li>&lt;output&gt;
+            <p>muestra el resutlado de un calculo</p>
+            <form oninput="res.value = parseInt(a.value) + parseInt(b.value)">
+                <input name="a" type="number"> +
+                <input name="b" type="number"> =
+                <output name="res"></output>
+            </form>
+        </li>
+        <li>&lt;p&gt;<p>es parrafo</p></li>
+        <li>&lt;param&gt;<p>son parametros de un objeto</p>
+            <object data="movie.swf">
+                <param name="autoplay" value="true">
+            </object>
+        </li>
+        <li>&lt;pre&gt;
+            <p>texto preformateado</p>
+            <pre>
+                Línea 1
+                Línea 2
+            </pre>              
+        </li>
+        <li>&lt;progress&gt;
+            <p>muestra el progreso de una tarea</p>
+            <progress value="70" max="100">70%</progress>
+        </li>
+        <li>&lt;q&gt; <p>cita que corta entre comillas</p>
+            <p><q>La práctica hace al maestro</q></p>
+        </li>
+        <li>&lt;rp&gt;
+            <p>Contenido alternativo para navegadores sin soporte ruby.</p>
+            <ruby>語<rp>(</rp><rt>palabra</rt><rp>)</rp></ruby>
+
+        </li>
+        <li>&lt;rt&gt;
+            <p>Texto de explicación (usado en ruby).</p>
+            <ruby>漢<rt>kan</rt></ruby>
+
+        </li>
+        <li>&lt;ruby&gt;
+            <p>Anotaciones fonéticas para caracteres (uso en japonés/chino).</p>
+            <ruby>語<rt>go</rt></ruby>
+
+        </li>
+        <li>&lt;s&gt;
+            <p>Texto no válido o eliminado (tachado).</p>
+            <p>Precio viejo: <s>$100</s></p>
+
+        </li>
+        <li>&lt;samp&gt;
+            <p>texto quie representa salida de un programa</p>
+            <p>Resultado: <samp>Error 404</samp></p>
+
+        </li>
+        <li>&lt;script&gt;
+            <p>inserta o enlaza codigo JavaScript</p>
+            <script>
+                alert("¡Hola mundo!");
+            </script>
+        </li>
+        <li>&lt;section&gt;
+            <p>seccion generica del documento</p>
+            <section>
+                <h2>Noticias</h2>
+                <p>Actualización de hoy...</p>
+            </section>              
+        </li>
+        <li>&lt;select&gt; <p>menu desplegable</p>
+            <select>
+                <option>Opción 1</option>
+                <option>Opción 2</option>
+                <option>Opción 3</option>
+                <option>Opción 4</option>
+
+            </select>
+        </li>
+        <li>&lt;slot&gt;
+            <p>Marcador para contenido personalizado (Web Components)
+            </p>
+            <slot name="encabezado"></slot>
+
+        </li>
+        <li>&lt;small&gt;
+            <p>Texto más pequeño.</p>
+            <small>Letra chica</small>
+
+        </li>
+        <li>&lt;source&gt;
+            <p>Define fuentes para video o audio.</p>
+            <video controls width="400" higth="200">
+                <source src="video.mp4" type="video/mp4" >
+            </video>
+        </li>
+        <li>&lt;span&gt;
+            <p>contenedor en linea para aplicar estilo o logica</p>
+            <p>Texto <span style="color:red;">rojo</span>.</p>
+
+        </li>
+        <li>&lt;strong&gt;
+            <p>Texto con énfasis fuerte (semántico, se suele mostrar en negrita).</p>
+            <p><strong>¡Atención!</strong> Esto es importante.</p>
+
+        </li>
+        <li>&lt;style&gt;
+            <p>Estilos CSS dentro del HTML.</p>
+            <style>
+                body { background: #fff; }
+            </style>              
+        </li>
+        <li>&lt;sub&gt;
+            <p>Texto en subíndice.</p>
+            <p>H<sub>2</sub>O</p>
+
+        </li>
+        <li>&lt;summary&gt;
+            Resumen visible de un details.
+            <details>
+                <summary>Leer más</summary>
+                <p>Texto oculto.</p>
+            </details>
+        </li>
+        <li>&lt;sup&gt;
+            <p>texto en superíndice</p>
+            <p>10<sup>2</sup> = 100</p>
+
+        </li>
+        <li>&lt;svg&gt;
+            <p>graficos vectoriales</p>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="darkgreen" fill="orange" />
+            </svg>              
+        </li>
+        <li>&lt;table&gt;
+            <p>crea tablas</p>
+            <table>
+                <tr><td>Dato</td></tr>
+            </table>              
+        </li>
+        <li>&lt;tbody&gt;
+            <p>agrupa las filas del cuerpo de la tabla</p>
+            <table>
+                <tbody>
+                    <tr><td>Fila 1</td></tr>
+                </tbody>
+            </table>              
+        </li>
+        <li>&lt;td&gt;
+            <p>celda de datos</p>
+            <tr><td>Dato</td></tr>
+
+        </li>
+        <li>&lt;template&gt;
+            <p>plantilla para clonar contenido</p>
+            <template id="miTemplate">
+                <p>Contenido oculto</p>
+            </template>              
+        </li>
+        <li>&lt;textarea&gt;
+            <p>texto multilinea</p>
+            <textarea rows="4" cols="50" placeholder="Escribi aca..."></textarea>
+        </li>
+        <li>&lt;tfoot&gt;
+            <p>pie de la tabla</p>
+            <table>
+                <tfoot>
+                    <tr><td>Total</td></tr>
+                </tfoot>
+            </table>              
+        </li>
+        <li>&lt;th&gt;
+            <p>encabezado de la tabla</p>
+            <tr><th>Nombre</th></tr>
+        </li>
+        <li>&lt;thead&gt;
+            <p>encabezado estructural de la tabla</p>
+            <table>
+                <thead>
+                    <tr><th>Título</th></tr>
+                </thead>
+            </table>              
+        </li>
+        <li>&lt;time&gt;
+            <p>fecha u hora legible por maquinas</p>
+            <time datetime="2025-04-13">13 de abril</time>
+
+        </li>
+        <li>&lt;title&gt;
+            <p>es el titulo de la ventana, en este caso: Etiquetas HTML5</p>
+        </li>
+        <li>&lt;tr&gt;
+            <p> fila de tabla</p>
+            <tr><td>Fila 1</td></tr>
+
+        </li>
+        <li>&lt;track&gt;
+            <p>pistas de subtitulos para videos</p>
+        </li>
+        <li>&lt;u&gt;
+            <p>subraya texto sin semantica</p>
+            <p><u>Texto subrayado</u></p>
+
+        </li>
+        <li>&lt;ul&gt;
+            <p>lista no ordenada</p>
+            <ul>
+                <li>Elemento</li>
+            </ul>              
+        </li>
+        <li>&lt;var&gt;
+            <p>representa una variable</p>
+            <p>Área = <var>π</var> r²</p>
+
+        </li>
+        <li>&lt;video&gt; <p>incrusta un video</p>
+            <video controls width="320">
+                <source src="video2.mp4" type="video/mp4">
+            </video>
+        </li>
+        <li>&lt;wbr&gt;
+            <p>sugerencia de corte para palabras largas</p>
+            <p>Supercalifragil<wbr>isticexpialidocious</p>
+
+        </li>
+    </ul>
+</body>
+</html>
